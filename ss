@@ -11017,8 +11017,8 @@
                     t.prototype.createTextureTest = function() {
                         var t, e, i, s, l, n, a, o, r, h, u, d, O, c, p, I, m;
                         for (t = document.createElement("canvas"),
-                        t.width = 0,
-                        t.height = 0,
+                        t.width = 1024,
+                        t.height = 1024,
                         e = t.getContext("2d"),
                         c = new OIIlI,
                         s = e.getImageData(0, 0, 32, 32),
@@ -11054,8 +11054,8 @@
                     t.prototype.createTexture = function() {
                         var t, e, i, s, l, n;
                         for (t = document.createElement("canvas"),
-                        t.width = 0,
-                        t.height = 0,
+                        t.width = 1024,
+                        t.height = 32,
                         e = t.getContext("2d"),
                         e.scale(t.width / 32, t.height),
                         e.translate(.5, .5),
