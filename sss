@@ -18536,19 +18536,8 @@
                 }(),
                 this.CrystalModel = function() {
                     function t(t) {
-                        var e, i, s, l, n, a;
-                        for (this.id = t,
-                        this.geometry = new THREE.IcosahedronGeometry(1,0),
-                        s = new OIIlI(this.id),
-                        new l000l(this.id),
-                        n = this.geometry.vertices,
-                        e = 0,
-                        i = n.length; e < i; e++)
-                            a = n[e],
-                            l = Math.pow(s.llI0l(a.x, a.y, a.z, 2), 2),
-                            a.x *= 1 + l,
-                            a.y *= 1 + l,
-                            a.z *= 1 + l;
+                        this.id = t,
+                        this.geometry = new THREE.SphereGeometry(1,24,24),
                         this.geometry.computeFaceNormals(),
                         this.geometry.computeVertexNormals()
                     }
